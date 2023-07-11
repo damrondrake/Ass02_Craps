@@ -41,8 +41,6 @@ public class Ass02
 
             }
         }
-
-//ask the user if he/she wants to play again
         System.out.print("Would you like to PLAY AGAIN? [Y/y]: ");
         char playAgain = new Scanner(System.in).next().charAt(0);
 
@@ -52,8 +50,6 @@ public class Ass02
         }
 
     }
-
-    //method to roll dice
     public static int rolldice() {
         Random random = new Random();
         int dice1 = random.nextInt(6) + 1;
